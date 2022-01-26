@@ -15,3 +15,7 @@ def terms(request):
 
 def contact(request):
     return render(request, 'core/contact.html')
+
+
+def plans(request):
+    return render(request, 'core/plans.html')
