@@ -1,6 +1,6 @@
 # Tasks 2
 
-1. Create a new django app for user profiles
+1. Done - Create a new django app for user profiles
 2. Create view and template for sign up page
 3. create template for login
 4. create a simple my account page
