@@ -20,8 +20,8 @@ from apps.core.views import frontpage, terms, contact, privacy
 
 urlpatterns = [
     path('', frontpage, name='frontpage'),
-    path('privacy', privacy, name='privacy'),
-    path('contact', contact, name='contact'),
-    path('terms', terms, name='terms'),
+    path('privacy/', privacy, name='privacy'),
+    path('contact/', contact, name='contact'),
+    path('terms/', terms, name='terms'),
     path('admin/', admin.site.urls),
 ]
