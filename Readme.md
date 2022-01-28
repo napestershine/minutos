@@ -3,9 +3,9 @@
 1. Done - Create a new django app for user profiles
 2. Done - Create view and template for sign up page
 3. Done - create template for login
-4. create a simple my account page
-5. make it possible to logout
-6. make it possible to edit user profile
+4. Done - create a simple my account page
+5. Done - make it possible to logout
+6. Done - make it possible to edit user profile
 
 # Tasks 1
 
