@@ -7,10 +7,10 @@
     4. Done - Show username in my account button
     5. Done - Hide the plans link in the menu
 2. Done - Create a new django app for teams
-3. Create a view and template for adding teams
-4. Show your teams on account page
-5. Make it possible to view a team
-6. Make it possible to edit a team
+3. Done - Create a view and template for adding teams
+4. Done - Show your teams on account page
+5. Done - Make it possible to view a team
+6. Done - Make it possible to edit a team
 
 # Tasks 2
 
