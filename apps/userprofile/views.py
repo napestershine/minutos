@@ -20,4 +20,6 @@ def edit_profile(request):
 
 @login_required
 def myaccount(request):
-    return render(request, 'userprofile/myaccount.html')
+    teams = request.user.teams.exclude(pk=request.user.userprofile.active_team_id)
+
+    return render(request, 'userprofile/myaccount.html', {'teams': teams})
