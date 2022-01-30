@@ -1,12 +1,12 @@
 # Tasks 3
 
 1. Fix small changes from previous tasks
-    1. Move sign up view to core app
-    2. move templates to the core app (update urls.py)
-    3. Add the links/info below signup and login form
-    4. Show username in my account button
-    5. Hide the plans link in the menu
-2. Create a new django for teams
+    1. Done - Move sign up view to core app
+    2. Done - move templates to the core app (update urls.py)
+    3. Done - Add the links/info below signup and login form
+    4. Done - Show username in my account button
+    5. Done - Hide the plans link in the menu
+2. Create a new django app for teams
 3. Create a view and template for adding teams
 4. Show your teams on account page
 5. Make it possible to view a team
