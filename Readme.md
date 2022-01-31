@@ -5,9 +5,9 @@
    2. Done - Show user profile in admin area
 2. Done - Create new app, models for projects
 3. Done - Show a list of projects (Model for adding projects)
-4. Show detail view of a project
-5. Make it possible to edit projects
-6. Create models for tasks
+4. Done - Show detail view of a project
+5. Done - Make it possible to edit projects
+6. Done - Create models for tasks
 7. Show a list of Tasks
 8. Make it possible to add tasks
 9. Show detail view of a task
