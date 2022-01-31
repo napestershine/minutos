@@ -1,8 +1,23 @@
+# Task 5
+
+1. Done - Add status to tasks
+2. show the status together with the task title
+3. fix typos
+4. show numbers of tasks in project
+5. create a new model for entries
+6. make it possible to register entries on task
+7. fix the registers time function son project and task
+8. show entries on a task
+9. show total time on the task list
+10. Make it possible to edit an entry
+11. Make it possible to delete an entry
+12. Import font awesome and add icons
+
 # Task 4
 
 1. Fix small things
-   1. Done - Add color to navigation bar
-   2. Done - Show user profile in admin area
+    1. Done - Add color to navigation bar
+    2. Done - Show user profile in admin area
 2. Done - Create new app, models for projects
 3. Done - Show a list of projects (Model for adding projects)
 4. Done - Show detail view of a project
