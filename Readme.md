@@ -1,3 +1,18 @@
+# Task 4
+
+1. Fix small things
+   1. Done - Add color to navigation bar
+   2. Show user profile in admin area
+2. Create new app, models for projects
+3. Show a list of projects (Model for adding projects)
+4. Show detail view of a project
+5. Make it possible to edit projects
+6. Create models for tasks
+7. Show a list of Tasks
+8. Make it possible to add tasks
+9. Show detail view of a task
+10. Make it possible to edit tasks
+
 # Tasks 3
 
 1. Fix small changes from previous tasks
