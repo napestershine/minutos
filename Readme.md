@@ -8,10 +8,10 @@
 4. Done - Show detail view of a project
 5. Done - Make it possible to edit projects
 6. Done - Create models for tasks
-7. Show a list of Tasks
-8. Make it possible to add tasks
-9. Show detail view of a task
-10. Make it possible to edit tasks
+7. Done - Show a list of Tasks
+8. Done - Make it possible to add tasks
+9. Done - Show detail view of a task
+10. Done - Make it possible to edit tasks
 
 # Tasks 3
 
