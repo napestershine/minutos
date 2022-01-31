@@ -2,7 +2,7 @@
 
 1. Fix small things
    1. Done - Add color to navigation bar
-   2. Show user profile in admin area
+   2. Done - Show user profile in admin area
 2. Create new app, models for projects
 3. Show a list of projects (Model for adding projects)
 4. Show detail view of a project
