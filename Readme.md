@@ -7,9 +7,9 @@
 5. Done - create a new model for entries
 6. Done - make it possible to register entries on task
 7. Done - fix the registers time function son project and task
-8. show entries on a task
-9. show total time on the task list
-10. Make it possible to edit an entry
+8. Done - show entries on a task
+9. Done - show total time on the task list
+10. Done - Make it possible to edit an entry
 11. Make it possible to delete an entry
 12. Import font awesome and add icons
 
