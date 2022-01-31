@@ -1,12 +1,12 @@
 # Task 5
 
 1. Done - Add status to tasks
-2. show the status together with the task title
-3. fix typos
-4. show numbers of tasks in project
-5. create a new model for entries
-6. make it possible to register entries on task
-7. fix the registers time function son project and task
+2. Done - show the status together with the task title
+3. Done - fix typos
+4. Done - show numbers of tasks in project
+5. Done - create a new model for entries
+6. Done - make it possible to register entries on task
+7. Done - fix the registers time function son project and task
 8. show entries on a task
 9. show total time on the task list
 10. Make it possible to edit an entry
