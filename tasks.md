@@ -1,3 +1,14 @@
+# Task 6
+
+1. Create a new app for dashboard
+2. Create a new url file for dashboard
+   1. Include the files for user profile, project and team here
+3. Show what I have done today and make it possible to go back in time
+4. Show what I have done this month and make it possible to go back in time
+5. Show what my team has done this month and make it possible to go back in time
+6. format minutes
+7. Show the newest project at the bottom
+
 # Task 5
 
 1. Done - Add status to tasks
