@@ -11,7 +11,6 @@
 
 <body>
 <div id="navbar-app">
-
     <nav class="navbar{% if request.user.is_authenticated %} is-dark{% else %} is-light{% endif %}" role="navigation"
          aria-label="main navigation">
         <div class="navbar-brand">
@@ -30,9 +29,9 @@
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-end">
                 {% if not request.user.is_authenticated %}
-                    <a href="{% url 'plans' %}" class="navbar-item">
-                        Plans
-                    </a>
+                    <a href="{% url 'plans' %}" class="navbar-item"> Plans </a>
+                {% else %}
+                    <a href="{% url 'project:projects' %}" class="navbar-item"> Projects </a>
                 {% endif %}
                 <div class="navbar-item">
                     <div class="buttons">

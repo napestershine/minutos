@@ -3,8 +3,8 @@
 1. Fix small things
    1. Done - Add color to navigation bar
    2. Done - Show user profile in admin area
-2. Create new app, models for projects
-3. Show a list of projects (Model for adding projects)
+2. Done - Create new app, models for projects
+3. Done - Show a list of projects (Model for adding projects)
 4. Show detail view of a project
 5. Make it possible to edit projects
 6. Create models for tasks
