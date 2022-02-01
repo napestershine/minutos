@@ -3,11 +3,11 @@
 1. Done - Create a new app for dashboard
 2. Done - Create a new url file for dashboard
    1. Done - Include the files for user profile, project and team here
-3. Show what I have done today and make it possible to go back in time
-4. Show what I have done this month and make it possible to go back in time
-5. Show what my team has done this month and make it possible to go back in time
-6. format minutes
-7. Show the newest project at the bottom
+3. Done - Show what I have done today and make it possible to go back in time
+4. Done - Show what I have done this month and make it possible to go back in time
+5. Done - Show what my team has done this month and make it possible to go back in time
+6. Done - format minutes
+7. Done - Show the newest project at the bottom
 
 # Task 5
 

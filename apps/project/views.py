@@ -85,7 +85,8 @@ def task(request, project_id, task_id):
             task=task,
             minutes=minutes_total,
             created_by=request.user,
-            created_at=date
+            created_at=date,
+            is_tracked=True
         )
 
     return render(request, 'project/task.html', {
