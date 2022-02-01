@@ -32,6 +32,22 @@
         </div>
     </div>
     <hr>
+
+    {% if invitations %}
+        <div class="notification is-info">
+            <h2 class="subtitle">You have pending invitations</h2>
+
+            {% for invitation in invitations %}
+                <a href="{% url 'accept_invitation' %}">{{ invitation.team.title }}</a>
+            {% endfor %}
+
+        </div>
+    {% endif %}
+
+
+
+
+
     <div class="columns">
         <div class="column is-12">
             <h2 class="subtitle">Teams</h2>
@@ -54,7 +70,7 @@
                     <a href="{% url 'team:team' active_team.id %}" class="button is-success">Details</a>
 
                     {% if active_team.created_by == request.user %}
-                        <a href="#" class="button is-info">Invite Users</a>
+                        <a href="{% url 'team:invite' %}" class="button is-info">Invite Users</a>
                     {% endif %}
                 </div>
             </div>

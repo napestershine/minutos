@@ -1,8 +1,32 @@
+# Task 7
+
+1. Done - Create new module for invites
+2. Done - Get credentials for sendgrid (or a smtp server)
+3. Done - Create helper functions for sending emails
+4. Done - Set up email templates
+5. Done - Create view and template for sending invites
+6. Done - show list of invited members
+7. Done - check for invitation when you sign up
+8. View and template for accepting invite
+9. Show your invitations on your account page
+
+## details
+
+```
+EMAIL_HOST='smpt.sendgrid.net'
+EMAIL_HOST_USER='apikey'
+EMAIL_HOST_PASSWORD=''
+EMAIL_PORT=587
+EMAIL_USE_TLS=true
+DEFAULT_EMAIL_FROM='Minutos <admin@example.com>'
+ACCEPTATION_URL='http://localhsot:8000/signup'
+```
+
 # Task 6
 
 1. Done - Create a new app for dashboard
 2. Done - Create a new url file for dashboard
-   1. Done - Include the files for user profile, project and team here
+    1. Done - Include the files for user profile, project and team here
 3. Done - Show what I have done today and make it possible to go back in time
 4. Done - Show what I have done this month and make it possible to go back in time
 5. Done - Show what my team has done this month and make it possible to go back in time

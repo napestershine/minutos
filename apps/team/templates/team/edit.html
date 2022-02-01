@@ -13,11 +13,11 @@
         </ul>
     </nav>
 
-    <div class="columns">
+    <div class="columns" id="team-app">
         <div class="column is-4">
             <h1 class="title">Edit team</h1>
 
-            <form method="post" action=".">
+            <form method="post" action="." @submit="validateForm">
                 {% csrf_token %}
 
 
@@ -25,9 +25,12 @@
                     <label for="title">Title</label>
 
                     <div class="control">
-                        <input type="text" name="title" class="input" id="title"{% if team.title %}
-                               value="{{ team.title }}" {% endif %}/>
+                        <input type="text" name="title" class="input" id="title" v-model="title"/>
                     </div>
+                </div>
+
+             <div class="notification is-danger" v-if="errors.length">
+                    <p v-for="error in errors">[[ error ]]</p>
                 </div>
 
                 <div class="field">
@@ -39,4 +42,36 @@
         </div>
     </div>
 
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+    const TeamApp = {
+        data() {
+            return {
+                title: '{{ team.title }}',
+                errors: []
+            }
+        },
+        delimiters: ['[[', ']]'],
+        methods: {
+            validateForm(e) {
+                this.errors = []
+
+                if (this.title) {
+                    return true
+                }
+
+                e.preventDefault()
+
+                this.errors.push('The title field is missing')
+
+                return false
+            }
+        }
+    }
+
+    Vue.createApp(TeamApp).mount('#team-app')
+</script>
 {% endblock %}
