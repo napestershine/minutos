@@ -40,8 +40,19 @@
                     <label for="email">Email</label>
 
                     <div class="control">
-                        <input type="email" name="email" id="email" class="input"
+                        <input type="email" name="email" id="id_email" class="input"
                                 {% if request.user.email %} value="{{ request.user.email }}"{% endif %}>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="avatar">Avatar</label>
+
+                    <figure class="image is-64x64">
+                        <img src="{{ request.user.userprofile.get_avatar }}">
+                    </figure>
+                    <div class="control mt-2 ">
+                        <input type="file" name="avatar" id="id_avatar" class="input">
                     </div>
                 </div>
 

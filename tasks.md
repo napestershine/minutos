@@ -1,3 +1,10 @@
+# Task 8
+
+1. Done - Add avatars to users
+2. Done - create new view and template for showing a user
+3. Done - Show what a user has done a certain time
+4. Done - Show what a user has done a certain month
+
 # Task 7
 
 1. Done - Create new module for invites
