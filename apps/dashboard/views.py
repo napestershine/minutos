@@ -1,5 +1,5 @@
 # import python
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from dateutil.relativedelta import relativedelta
 
 # import django
@@ -56,6 +56,17 @@ def dashboard(request):
             member,
             team_month)
 
+    # untracked entries
+    untracked_entries = Entry.objects.filter(
+        team=team,
+        created_by=request.user,
+        is_tracked=False).order_by('-created_at')
+
+    for untracked_entry in untracked_entries:
+        untracked_entry.minute_since = int(
+            (datetime.now(timezone.utc) - untracked_entry.created_at).total_seconds() / 60
+        )
+
     context = {
         'team': team,
         'all_projects': all_projects,
@@ -71,6 +82,7 @@ def dashboard(request):
         'time_for_user_and_date': get_time_for_user_and_date(team, request.user, date_user),
         'time_for_user_and_month': get_time_for_user_and_month(team, request.user, user_month),
         'time_for_team_and_month': get_time_for_team_and_month(team, team_month),
+        'untracked_entries': untracked_entries
     }
     return render(request, 'dashboard/dashboard.html', context)
 

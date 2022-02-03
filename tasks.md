@@ -1,3 +1,15 @@
+# Task 9
+
+1. Done - Make a globally available active entry function
+2. Done - Add buttons in the menu for tracking time
+3. Done - Create api functions for starting, stopping and discarding time
+4. Done - Create Vue functionality for starting and stopping time
+5. Done - Add modal for choosing what to do
+6. Show untracked entries on dashboard
+7. Make it possible to delete untracked entries
+8. Make it possible to track untracked entries
+
+
 # Task 8
 
 1. Done - Add avatars to users
