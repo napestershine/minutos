@@ -1,3 +1,12 @@
+# Task 10
+
+1. Done - Create new model for plans and update the team model
+2. Done - Create new page for showing plans
+3. Done - Add plans to database
+4. Done - Change project.html file to implement limits
+5. Done - Change projects.html file to implement limits
+6. Done - Change invite.html file to implement limits
+
 # Task 9
 
 1. Done - Make a globally available active entry function
@@ -8,7 +17,6 @@
 6. Show untracked entries on dashboard
 7. Make it possible to delete untracked entries
 8. Make it possible to track untracked entries
-
 
 # Task 8
 

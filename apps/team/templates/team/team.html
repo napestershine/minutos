@@ -18,6 +18,7 @@
             <h1 class="title">{{ team.title }}</h1>
             {% if request.user == team.created_by %}
                 <a href="{% url 'team:invite' %}" class="button is-primary">Invite users</a>
+                <a href="{% url 'team:plans' %}" class="button is-success">Change plan</a>
             {% endif %}
             <hr>
             <h2 class="subtitle mt-6">Members</h2>
