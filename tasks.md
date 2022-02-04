@@ -1,3 +1,20 @@
+# Task 11
+
+1. Done - Set up stripe
+2. Done - install stripe
+3. Done - run the stripe cli
+4. Done - create api functions for stripe
+5. Done - update the plan page view
+6. Done - create the thank-you page
+7. Done - show current plan on team page
+8. Done - make it possible to cancel a plan
+9. script for checking active subscriptions
+
+``` 
+stripe listen --forward-to localhost:8000/dashboard/myaccount/teams/api/stripe_webhooks/
+
+```
+
 # Task 10
 
 1. Done - Create new model for plans and update the team model
