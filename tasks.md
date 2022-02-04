@@ -1,3 +1,7 @@
+# Task - 12
+
+1. deploy it live
+
 # Task 11
 
 1. Done - Set up stripe
